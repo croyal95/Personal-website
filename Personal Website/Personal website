@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css" media="screen" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <title>Cole Royal</title>
+    </head>
+    <body>
+                <div class="container1">
+                    <h3>Hello, I'm</h3> 
+                    <h1>Cole Royal</h1>
+                    <h3>Take a look at my portfolio.</h3>
+                    <nav>
+                        <ul class="dropdown">
+                            <li>Menu
+                                <ul class="dropdown-content">
+                                    <li><a href="#container2">About Me</a></li>
+                                    <li><a href="#container3">Languages</a></li>
+                                    <li><a href="#container5">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>   
+                </div>
+            <div class="grid-container">
+                <div id="container2" class="container2">
+                    <h1>About me</h1>
+                    <p>I am currently taking a software developement certificate course through Circuits Stream with an endorsment from the University of British Columbia. I have a background in cybersecurity auditing and am also a full time Aircraft Maintenance Engineer.</p>
+                </div>
+            
+                <div id="container3" class="container3">
+                    <h1>Languages</h1>
+                    <div class="img-container">
+                        <img class="img" src="html_logo.png" alt="HTML Logo">
+                        <img class="img" src="css_logo1.png" alt="CSS Logo">
+                        <img class="img" src="javascript_logo.png" alt="Javascript Logo">
+                        <img class="img" src="git_logo.png" alt="Github Logo">
+                    </div>
+                </div>
+            </div>
+            <div id="container5" class="container5">
+                <h1>Contact</h1>
+                <a href="https://www.linkedin.com/in/cole-royal-/"><img src="linkedin_logo.png" alt="LinkedIn Profile"></a>
+            </div>
+
+            <footer>
+                <div class="footer">
+                    <p>&copy 2024 Cole Royal & R.A.M. Inc.</p>
+                </div>
+            </footer>  
+    </body>
+
+</html>
